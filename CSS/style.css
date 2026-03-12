@@ -10,3 +10,19 @@
     height: 60px;
     margin: auto 12px;
 }
+/* Catalogo + Add */
+.container-catalogo {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 12px;
+}
+.catalogo {
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn-book-add {
+    background: rgba(13, 110, 253);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
