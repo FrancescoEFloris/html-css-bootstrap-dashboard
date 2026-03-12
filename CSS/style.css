@@ -26,3 +26,13 @@
     border-radius: 5px;
     border: 0;
 }
+/* grid */
+.wrapper {
+    margin: 20px;
+}
+.book-80 {
+    width: 60%
+}
+.book-20 {
+    width: 20%;
+}
