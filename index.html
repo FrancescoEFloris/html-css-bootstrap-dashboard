@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    <!-- Navbar -->
     <header class="top-bar">
         <!-- img Papera -->
         <img src="img/duck.png" alt="" class="ducky">
@@ -39,24 +39,20 @@
                         </li>
                     </ul>
                     <form class="d-flex ms-auto" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-light" type="submit">Cerca</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
-
-
     <div class="wrapper d-lg-flex">
         <div class="table-wrapper">
             <div class="container-catalogo">
                 <!-- Catalogo libri -->
                 <p class="catalogo">Catalogo Libri</p>
                 <!-- Bottone aggiungi libri -->
-                <button class="btn-book-add">
-                    Aggiungi Libro
-                </button>
+                <a href="newbook.html" target="_blank" class="btn-book-add">Aggiungi Libro</a>
             </div>
             <!-- Tabella Libri -->
             <table class="table table-striped">
@@ -237,13 +233,10 @@
                             </button>
                         </td>
                     </tr>
-
-
                 </tbody>
             </table>
         </div>
         <div class="cards">
-
             <div class="card mb-3">
                 <div class="card-header fs-3 fw-bold">Todo</div>
                 <div class="card-body">
@@ -263,7 +256,6 @@
                     </ul>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-header fs-3 fw-bold">F.A.Q.</div>
                 <div class="accordion" id="faq">
@@ -274,7 +266,6 @@
                                 Come aggiungere un nuovo libro?
                             </button>
                         </h2>
-
                         <div id="faq1" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 Aggiungendolo
@@ -288,32 +279,27 @@
                                 Come posso accedere all'anagrafica utenti?
                             </button>
                         </h2>
-
                         <div id="faq2" class="accordion-collapse collapse">
                             <div class="accordion-body">
                                 Dall'anagrafica utenti
                             </div>
                         </div>
-                        <!-- faq mobile -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                    data-bs-target="#faq3">
-                                    Posso usare questa dashboard da mobile?
-                                </button>
-                            </h2>
-
-                            <div id="faq3" class="accordion-collapse collapse">
-                                <div class="accordion-body">
-                                    Solo se è fermo e non mobile.
-                                </div>
+                    </div>
+                    <!-- faq mobile -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                Posso usare questa dashboard da mobile?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Solo se è fermo e non mobile.
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
 
